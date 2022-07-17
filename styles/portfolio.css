@@ -8,16 +8,17 @@ font-family: 'Poppins', sans-serif;
   --default-font: "Poppins", sans-serif;
 }
 
-h1 {
+.hero h1 {
   font-family: var(--heading-font);
   font-weight: bold;
   font-size: 96px;
 }
-h2 {
+.hero h2 {
   font-family: var(--default-font);
   font-weight: normal;
+  font-size: 28px;
 }
-p {
+.hero p {
   font-family: var(--default-font);
   font-weight: bold;
   font-size: 36px;
@@ -36,4 +37,44 @@ p {
   background-color: #f9f7fe;
   text-align: center;
   padding: 160px 0;
+}
+
+h2 {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.btn-branding {
+  line-height: 30px;
+  padding: 12px 20px;
+  background: #fff;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: var(--default-font);
+  font-size: 18px;
+}
+
+.project-properties {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+  .hero {
+    padding: 80px 0;
+  }
+  .project-properties {
+    padding: 0;
+    text-align: center;
+  }
 }
