@@ -77,8 +77,9 @@ p {
     padding: 0;
     text-align: center;
   }
-  footer {
-    font-size: x-small;
-    opacity: 50%;
-  }
+}
+
+footer {
+  font-size: x-small;
+  opacity: 50%;
 }
