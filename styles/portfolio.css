@@ -1,0 +1,12 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Mono', monospace;*/
+
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
