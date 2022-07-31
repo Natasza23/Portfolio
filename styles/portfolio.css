@@ -81,4 +81,36 @@ footer {
     padding: 0;
     text-align: center;
   }
+  .about-page {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.about-page h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-family: var(--heading-font);
+}
+
+.about-page h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+
+.about-page-content {
+  padding: 160px 0;
+}
+
+.about-page a {
+  background-color: #6c63ff;
+  color: #fff;
+}
+
+.about-page img {
+  max-width: 100%;
+  height: auto;
+  padding: 40px;
+  border-radius: 4px;
+  border: 2px solid #6c63ff;
 }
