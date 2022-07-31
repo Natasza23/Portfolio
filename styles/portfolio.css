@@ -81,33 +81,43 @@ footer {
     padding: 0;
     text-align: center;
   }
-  .about-page {
+  .content-container {
     text-align: center;
     padding: 0;
   }
 }
 
-.about-page h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
   font-family: var(--heading-font);
 }
 
-.about-page h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font);
 }
 
-.about-page-content {
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font);
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.content p {
+  font-size: 14px;
+}
+
+.content {
   padding: 160px 0;
 }
 
-.about-page a {
+.content-container a {
   background-color: #6c63ff;
   color: #fff;
 }
 
-.about-page img {
+.content-container img {
   max-width: 100%;
   height: auto;
   padding: 40px;
